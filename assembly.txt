@@ -1,0 +1,15 @@
+mov $0 %ecx
+cmp $1 %edx
+add $1 $0
+mov %edx %eax
+and $1 $4
+jmp .ONE
+mov %edx %eax
+add $2 $0
+sub $6 $1
+imul $3 $3
+xor $5 $7
+and $5 $7
+or $5 $7
+.ONE
+add $1 $7
